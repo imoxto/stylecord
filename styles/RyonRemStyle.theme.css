@@ -9,8 +9,11 @@
     --primaryDark: #00aeff;
     --primaryLight: #00DFF1;
     --primaryShade: #76AAD9;
+    --primaryShader: #94CEE6;
     --dark: #181818;
     --lessDark: #1a1a1a;
+    --warn: #FFB21F;
+        --warnLight: #FFEC65;
 }
 
 .app_de4237 {
@@ -305,11 +308,11 @@
 .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--keyboard-selected,
 .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected:hover,
 .calendarPicker__5c474 .react-datepicker__day:hover {
-    background-color: #FFB21F;
+    background-color: var(--warn);
 }
 
 .calendarPicker__5c474 .react-datepicker__day.react-datepicker__day--selected:after {
-    background-color: #FFB21F;
+    background-color: var(--warn);
 }
 
 .theme-dark .datePicker__94673 .datePickerHint__7cc9b {
@@ -510,7 +513,7 @@
 
 
 .lowMotion_ff2273 .item__0e5d6 {
-    background-color: #FFEC65;
+    background-color: var(--lowMotion);
     border-radius: 40px;
 }
 
@@ -525,7 +528,7 @@
 
 .markup_a7e664 a,
 .mutedChannelsHook__2e4eb {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .markup_a7e664 {
@@ -632,7 +635,7 @@
 .unreadPill__715fc {
     border-radius: 0 6px 6px 0;
     text-transform: capitalize;
-    color: #fff;
+    color: white;
     background-color: var(--primary);
 }
 
@@ -1697,7 +1700,7 @@
 
 .description__7af71 a,
 .helpText__1b4f8 a {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .item_b7fb7e {
@@ -1781,11 +1784,11 @@
 .theme-dark .footerText__614f3 a,
 .theme-dark .subText__9988c a,
 .notice__5fd4c a {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .lookLink__93965.colorLink_b651e5:hover .contents_fb6220 {
-    background-image: linear-gradient(0deg, transparent, transparent 1px, #94CEE6 0, #94CEE6 2px, transparent 0);
+    background-image: linear-gradient(0deg, transparent, transparent 1px, var(--primaryShader) 0, var(--primaryShader) 2px, transparent 0);
 }
 
 .previewContainer_c7e80d {
@@ -2151,7 +2154,7 @@ button.button__4f306.enabled__470f0:hover {
 .promotionText-1p8WKF a,
 .codeRedemptionRedirect_bc7f36 a,
 .colorStandard__5111e a {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .whatYouLoseItem__29eb0 {
@@ -2241,7 +2244,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .bd-meta a {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .wrapper__4beb8 {
@@ -2335,7 +2338,7 @@ button.button__4f306.enabled__470f0:hover {
 
 .expandedInfo__47bad a,
 .finePrint_fa6271 a {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .theme-dark .expandedInfo__47bad {
@@ -2378,7 +2381,7 @@ button.button__4f306.enabled__470f0:hover {
 
 .connectContainer__8050b a,
 .promotionCard__8581c a {
-    color: #94CEE6;
+    color: var(--primaryShader);
     font-weight: 700;
 }
 
@@ -2387,7 +2390,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .dropsHelpText__71de8 a {
-    color: #94CEE6;
+    color: var(--primaryShader);
     font-weight: 700;
 }
 
@@ -2545,7 +2548,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .emptyStateCTA_e6bca2 a {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .avatarSizeOverride-sfatEO foreignObject,
@@ -2972,7 +2975,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .modal-1BeEFO a {
-    color: #94CEE6;
+    color: var(--primaryShader);
     font-weight: 600;
 }
 
@@ -2986,7 +2989,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .entryInner_ad1d43 a {
-    color: #94CEE6;
+    color: var(--primaryShader);
     font-weight: 600;
 }
 
@@ -2999,7 +3002,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .getXboxApp__94b35 a {
-    color: #94CEE6;
+    color: var(--primaryShader);
     font-weight: 800;
 }
 
@@ -3044,7 +3047,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .container__1b27a .guidelines__6045d a {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 .descriptionContainer__3814d {
@@ -3436,7 +3439,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .perkDescription_fb1d19 a {
-    color: #FFFF90;
+    color: whiteF90;
 }
 
 .divider_ec850d {
@@ -3543,7 +3546,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .topic__16ae3 a {
-    color: #FFFF90;
+    color: whiteF90;
 }
 
 .theme-dark .elevationLow__75cba {
@@ -3703,7 +3706,7 @@ button.button__4f306.enabled__470f0:hover {
 }
 
 .textBlock__66ae7 a {
-    color: #FFF88D;
+    color: white88D;
 }
 
 .note_ba0c31 textarea:focus {
@@ -4407,7 +4410,7 @@ button.button__4f306.enabled__470f0:hover {
 
 /* Link Color */
 .link-color {
-    color: #94CEE6;
+    color: var(--primaryShader);
 }
 
 
