@@ -35,7 +35,7 @@
   --dplus-background-color-hue: 320;
   --dplus-background-color-saturation-amount: 1;
   --dplus-background-color-lightness-amount: 1;
-  --dplus-background-color-alpha: 0.8;
+  --dplus-background-color-alpha: 0.6;
 }
 
 /* If you use light theme, you can give it unique settings that are separate from dark theme. */
@@ -75,7 +75,7 @@ Set avatar/server radius to 50% to make them circular.
   --dplus-spacing-ui: 10px;
 
   /* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
-  --dplus-spacing-app: 10px;
+  --dplus-spacing-app: 5px;
 
   /* Size of user and server icons */
   --dplus-icon-avatar-chat: 64px;
