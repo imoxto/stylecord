@@ -1,0 +1,11 @@
+{
+  "name": "discordcss",
+  "version": "1.0.0",
+  "description": "My discord styles",
+  "main": "index.js",
+  "scripts": {
+    "start": "powershell.exe \"scripts\\copyThemeToDiscord.ps1\""
+  },
+  "author": "",
+  "license": "ISC"
+}
